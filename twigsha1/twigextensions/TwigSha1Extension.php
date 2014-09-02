@@ -11,7 +11,7 @@ class TwigSha1Extension extends \Twig_Extension
   }
 
   public function getName() {
-      return 'Twig Base 64 Extension';
+      return 'Twig Sha1 Encode';
   }
 
   public function sha1Encode($str){
